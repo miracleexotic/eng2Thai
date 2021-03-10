@@ -9,13 +9,13 @@
 Use pip
 
 ```sh
-pip install loongpom
+pip install eng2Thai
 ```
 
 ### Used
-just import use (-1) to exit
+  - just import 
+  - use (-1) to exit
 ```sh
 >>>import eng2Thai
 ```
 
-# eng2Thai
