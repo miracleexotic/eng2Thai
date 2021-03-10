@@ -1,1 +1,1 @@
-import eng2Thai
+from eng2Thai import eng2Thai
