@@ -95,29 +95,20 @@ dict_convert = {
     " " : " "
 }
 
-def encode(code):
-    print("convert : ", end="");
+def decode(code):
+    data = ''
     for i in range(len(code)):
-        print(dict_convert[code[i]], end="")
-    print();
+        data += dict_convert[code[i]]
+    return data
 
-while code := input("code : "):
-    if code == "-1" :
-        break;
-    else :
-        encode(code)
+def run():
+    while code := input("code : "):
+        if code == "-1" :
+            break;
+        else :
+            print(decode(code))
 
-
-
-
-
-
-
-
-
-
-
-
-
+if __name__ == '__main__':
+    run()
 
 

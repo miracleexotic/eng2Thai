@@ -1,1 +1,1 @@
-from eng2Thai import eng2Thai
+from eng2Thai.eng2Thai import decode, run
